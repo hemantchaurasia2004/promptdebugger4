@@ -217,8 +217,6 @@ def main():
 
     #### File Format Requirements
     - Text files (.txt)
-    - System prompt should describe the AI's behavior
-    - Conversation log should include full interaction
 
     #### Sample Files
     - [Sample System Prompt](https://docs.google.com/document/d/19mfI9O-TT6wqiyDEjef3GvwqYJAsPCAfT_zIFT_pvK4/edit?usp=sharing)
