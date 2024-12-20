@@ -199,7 +199,7 @@ def main():
                 
                 # Analysis Results
                 st.subheader("Analysis with Detailed Breakdown")
-                st.markdown("""<style>textarea { font-size: 14px; line-height: 1.6; }</style>"", unsafe_allow_html=True)
+                st.markdown("""<style>textarea { font-size: 14px; line-height: 1.6; }</style>""", unsafe_allow_html=True)
                 st.text_area("Detailed Analysis", 
                              value=influence_analysis['raw_analysis'], 
                              height=600)
@@ -207,6 +207,7 @@ def main():
         except Exception as e:
             st.error(f"An error occurred during analysis: {e}")
 
+    # Links to examples
     st.sidebar.markdown("""
     ### Instructions
     1. Select AI Provider and Model
@@ -215,12 +216,9 @@ def main():
        - Use direct text input
     3. Click "Analyze System Prompt Influence"
 
-    #### File Format Requirements
-    - Text files (.txt)
-
-    #### Sample Files
-    - [Sample System Prompt](https://docs.google.com/document/d/19mfI9O-TT6wqiyDEjef3GvwqYJAsPCAfT_zIFT_pvK4/edit?usp=sharing)
-    - [Sample Conversation Log](https://docs.google.com/document/d/1N6gHQhZAJoNGhybedoTeq7w3giZSryhYM_RR2pmwH5U/edit?usp=sharing)
+    #### Example System Prompt and Conversation Log
+    - [System Prompt Example](https://docs.google.com/document/d/19mfI9O-TT6wqiyDEjef3GvwqYJAsPCAfT_zIFT_pvK4/edit?tab=t.0)
+    - [Conversation Log Example](https://docs.google.com/document/d/1N6gHQhZAJoNGhybedoTeq7w3giZSryhYM_RR2pmwH5U/edit?tab=t.0)
     """)
 
 if __name__ == "__main__":
