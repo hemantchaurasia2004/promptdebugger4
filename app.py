@@ -15,7 +15,9 @@ class SystemPromptInfluenceAnalyzer:
             "Anthropic": {
                 "claude-3-opus-20240229": "Claude 3 Opus",
                 "claude-3-sonnet-20240229": "Claude 3 Sonnet",
-                "claude-3-haiku-20240307": "Claude 3 Haiku"
+                "claude-3-haiku-20240307": "Claude 3 Haiku",
+                "claude-3-5-haiku-latest": "Claude 3.5 Haiku",
+                "claude-3-5-sonnet-latest": "Claude 3.5 Sonnet"
             },
             "OpenAI": {
                 "gpt-4-0125-preview": "GPT-4 Turbo",
